@@ -1,0 +1,44 @@
+.Fritos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute; 
+    top: 60%;
+    width: 100%;
+}
+
+.Fritos ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Fritos ul li {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: 1px solid black; 
+}
+
+.Hamburguesa {
+    background-image: url('../assets/hamburguesa.jpeg');
+}
+
+.Salchipapa {
+    background-image: url('../assets/salchipapa.jpeg');
+}
+
+.Perro {
+    background-image: url('../assets/perro.jpg');
+}

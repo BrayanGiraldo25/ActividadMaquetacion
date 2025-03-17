@@ -1,0 +1,28 @@
+.lateral{
+    position: absolute;
+    right: 5%;
+    width: 600px;
+    height: 50%;
+    background-image: url('../assets/Colombia.png');
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lateral h1{
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.lateral p{
+    margin-top: 60px;
+    color: white;
+}
+
+.lateral h5{
+    color: white;
+}
